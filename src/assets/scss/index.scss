@@ -1,0 +1,17 @@
+@use "reboot";
+
+@use "~@latte-ui/core" with (
+	$colors: (
+			primary: (#4cbbb9, white),
+			secondary: (#512b58, white),
+			error: (#f50008, white),
+			info: (#007bc8, white),
+			success: (#00885c, white),
+			warning: (#fba700, white),
+			light: (white, #191a1c),
+			dark: (#191a1c, white)
+	),
+	$font-family: proxima-nova
+);
+
+@use "nav";

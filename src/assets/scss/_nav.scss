@@ -1,0 +1,13 @@
+@use "~@latte-ui/core/src/css/config";
+@use "~@latte-ui/core/src/css/function" as *;
+
+.nav.nav-list .nav-link
+{
+	color: #{color-themeHsl(secondary)};
+	font-weight: 700;
+
+	#{config.$icon-selector}
+	{
+		color: #{color-themeHsl(primary)};
+	}
+}

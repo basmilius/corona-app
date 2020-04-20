@@ -1,0 +1,13 @@
+.svg-inline--fa,
+.svg-inline--fa[class*="fa-w-"]
+{
+	height: unset;
+	width: unset;
+}
+
+.btn.is-icon svg,
+.nav-link .mdi
+{
+	margin: 2px;
+	font-size: 20px;
+}
